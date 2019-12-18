@@ -15,6 +15,11 @@ var x = 30;
 console.log("the value of x is", x);
 
 confirm("Shall we then?");
+
+var theNumber = Number(prompt("Pick a number", ""));
+if (!isNaN(theNumber))
+  alert("Your number is the square root of" +
+        theNumber * theNumber)
 </script>
 
 </body>
